@@ -1,0 +1,148 @@
+// @import "antd/dist/antd.css";
+// Here you can add other styles
+//-----------Stlye table--------------//
+.ant-table-tbody {
+  // padding: 0 80px;
+  background: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  > tr {
+    cursor: pointer;
+  }
+  .ant-table-row {
+    position: relative;
+    &:hover {
+      td {
+        &:first-child {
+          position: relative;
+          &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            border-left: 4px solid #634ae2;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ant-table-container table > thead > tr:first-child th:first-child {
+  padding-left: 15px;
+  // padding-bottom: 15px;
+}
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  padding-left: 15px;
+  // padding-bottom: 15px;
+}
+
+tr.ant-table-row.ant-table-row-level-0 td:first-child {
+  padding-left: 15px !important;
+  padding-bottom: 15px;
+}
+
+//-----------card filter--------------//
+.cardFilter .ant-card-body {
+  // padding-left: 36px;
+  // padding-top: 36px;
+  padding: 36px !important;
+}
+
+//-----------card table--------------//
+.cardTable .ant-card-body {
+  padding: 0px 0px 25px 0px !important;
+  overflow: auto;
+  // border-radius: 12px;
+}
+
+.cardTabeV2 {
+  overflow: auto;
+}
+
+//-----------Pagination Table--------------//
+.paginationTable {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+
+//-----------Tooltip Style--------------//
+.ant-tooltip-inner {
+  border-radius: 12px;
+}
+
+//-----------card style--------------//
+.ant-card.ant-card-bordered {
+  // border-radius: 12px;
+  box-shadow: 0px 0px 25px -3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.ant-card-body {
+  padding: 40px 60px !important;
+}
+
+//-----------PageHeader style--------------//
+.ant-page-header-ghost {
+  background-color: inherit;
+  padding: 0px !important;
+}
+
+//@at-root
+.ant-btn-lg {
+  min-width: 100px;
+}
+//set center massage
+.ant-message-custom-content.ant-message-error {
+  display: flex;
+  align-items: center;
+}
+
+//dropdown menu
+.ant-dropdown-menu {
+  border-radius: 15px !important;
+  // background-color: #001a70 !important;
+}
+.ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title:hover {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.ant-input-number.ant-input-number-lg {
+  width: 100%;
+}
+
+.ant-picker {
+  width: 100%;
+}
+
+// button.ant-btn.ant-btn-lg.ant-btn-background-ghost.btn-upload {
+//   color: #007009;
+//   border-color: #1aee1a;
+// }
+svg {
+  vertical-align: baseline !important;
+}
+
+.card-data .ant-card-body {
+  min-height: 350px;
+  padding: 0px !important;
+}
+
+// calendar faziliy booking
+
+.site-calendar-fazility-booking {
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+}
+
+.site-calendar-fazility-booking .ant-radio-group {
+  display: none !important;
+  // background-color: red;
+}
+
+.table-datetime-fazility-booking .ant-table-tbody {
+  box-shadow: none;
+}

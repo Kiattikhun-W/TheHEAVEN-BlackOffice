@@ -1,0 +1,366 @@
+// Here you can add other styles
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap");
+}
+body {
+  font-family: "Kanit" !important;
+  background-color: #f3f3f3;
+}
+.bottom-shadow {
+  box-shadow: 0 4px 6px -6px #222;
+}
+.btn {
+  margin: 0 0.3em;
+}
+.btn-primary {
+  background-color: #0076fe;
+  border-color: #0076fe;
+  color: #ffffff;
+}
+.btn-success {
+  background-color: #66bf0a;
+  border-color: #66bf0a;
+  color: #ffffff;
+}
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #ffffff;
+}
+.btn-danger {
+  background-color: #fe1602;
+  border-color: #fe1602;
+  color: #ffffff;
+}
+.color-primary {
+  color: #0076fe;
+}
+.color-success {
+  color: #66bf0a;
+}
+.color-warning {
+  color: #ffc107;
+}
+.color-danger {
+  color: #fe1602;
+}
+.color-chocolate {
+  color: #d2691e;
+}
+.c-header .c-subheader {
+  border: none !important;
+
+  .c-header-nav {
+    min-height: 60px;
+  }
+}
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0px 4px;
+}
+.icon-button:hover {
+  opacity: 0.5;
+}
+.nav-tabs .nav-link {
+  cursor: pointer;
+}
+.pre-line {
+  white-space: pre-line;
+}
+.table th,
+.table td {
+  padding: 0.5rem;
+}
+.table-sm td,
+.table-sm th {
+  padding: 0.3rem;
+}
+.text-button {
+  color: #fe1602;
+  cursor: pointer;
+  padding: 0.375rem;
+  margin: 0.3em;
+}
+.text-header {
+  display: inline;
+  margin: 0px;
+}
+.metrics + .metrics {
+  border-left: 1px solid #e5e5e5;
+}
+.toggle-switch {
+  line-height: 18px;
+  -moz-box-align: center;
+  align-items: center;
+  margin-bottom: 8px;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.15) none repeat scroll 0% 0%;
+  border-radius: 3em;
+  padding: 1px;
+}
+.toggle-switch input {
+  appearance: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: medium none;
+  background: transparent none repeat scroll 0% 0%;
+  cursor: pointer;
+  border-radius: 3em;
+}
+.toggle-switch span {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 15px;
+  transition: all 100ms ease-out 0s;
+  user-select: none;
+  border-radius: 3em;
+  color: rgba(51, 51, 51, 0.6);
+  background: transparent none repeat scroll 0% 0%;
+}
+.toggle-switch input:checked ~ span:last-of-type,
+.toggle-switch input:not(:checked) ~ span:first-of-type {
+  background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px;
+  color: rgb(51, 51, 51);
+  padding: 7px 15px;
+}
+.toggle-switch span:first-of-type {
+  padding-right: 8px;
+}
+.toggle-switch span:last-of-type {
+  padding-left: 8px;
+}
+
+// ------------------ start section report receipt --------------------------
+.container-report-receipt {
+  padding: 0px 0px 25px 0px !important;
+  overflow: auto;
+}
+
+.body-report-receipt {
+  min-width: 500px;
+}
+
+.left-report-receipt {
+  width: 60%;
+}
+
+.right-report-receipt {
+  width: 25%;
+}
+
+.receipt-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.receipt-flex-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+// assigh width and height
+.receipt-w100c {
+  width: 100%;
+}
+.receipt-w80c {
+  width: 80%;
+}
+.receipt-w70c {
+  width: 70%;
+}
+.receipt-w78c {
+  width: 78%;
+}
+.receipt-w60c {
+  width: 60%;
+}
+.receipt-w50c {
+  width: 50%;
+}
+.receipt-w40c {
+  width: 40%;
+}
+.receipt-w30c {
+  width: 30%;
+}
+.receipt-w20c {
+  width: 20%;
+}
+.receipt-w15c {
+  width: 15%;
+}
+
+// assigh color
+.receipt-cl-primary {
+  color: #1000a1;
+}
+
+// assign border
+.receipt-pd-b-40px {
+  padding-bottom: 40px;
+}
+
+.receipt-pd-r-40px {
+  padding-bottom: 40px;
+}
+
+.receipt-mg-t-40px {
+  margin-top: 40px;
+}
+
+.receipt-mg-r-40px {
+  margin-right: 40px;
+}
+
+.receipt-mg-r-2c {
+  margin-left: 2%;
+}
+
+.receipt-mg-r-10c {
+  margin-right: 15%;
+}
+
+// assign table
+.table-report-receipt {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.table-report-receipt-header {
+  background-color: #fafafa;
+}
+
+.table-report-receipt-th {
+  padding: 0.7rem;
+}
+
+.table-report-receipt-td {
+  padding: 0.7rem;
+}
+
+// align
+.receipt-text-center {
+  text-align: center;
+}
+
+// ------------------ end section report receipt --------------------------
+
+.card-list {
+  // border-bottom: rgba(102, 102, 102, 0.116) solid 1px;
+  padding: 15px 15px 15px 45px;
+  cursor: pointer;
+}
+.card-list:hover {
+  background-color: rgba(255, 94, 255, 0.068);
+}
+.card-list p {
+  margin-top: -10px;
+}
+
+// new receipt
+.invoice-box {
+  max-width:950px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
+}
+
+.invoice-box table {
+  width: 100%;
+  line-height: inherit;
+  text-align: left;
+}
+
+.invoice-box table td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.invoice-box table tr td:nth-child(2) {
+  text-align: right;
+}
+
+.invoice-box table tr.top table td {
+  padding-bottom: 20px;
+}
+
+.invoice-box table tr.top table td.title {
+  font-size: 45px;
+  line-height: 45px;
+  color: #333;
+}
+
+.invoice-box table tr.information table td {
+  padding-bottom: 40px;
+}
+
+.invoice-box table tr.heading td {
+  background: #634ae2;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  color: white;
+}
+
+.invoice-box table tr.details td {
+  padding-bottom: 20px;
+}
+
+.invoice-box table tr.item td {
+  border-bottom: 1px solid #eee;
+}
+
+.invoice-box table tr.item.last td {
+  border-bottom: none;
+}
+
+.invoice-box table tr.total td:nth-child(2) {
+  border-top: 2px solid #eee;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .invoice-box table tr.top table td {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .invoice-box table tr.information table td {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
+
+/** RTL **/
+.invoice-box.rtl {
+  direction: rtl;
+  font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+}
+
+.invoice-box.rtl table {
+  text-align: right;
+}
+
+.invoice-box.rtl table tr td:nth-child(2) {
+  text-align: left;
+}
